@@ -11,7 +11,7 @@ public class userinput {
         String name = sc.nextLine();
 
         System.out.println("Enter your age: ");
-        String age = sc.nextLine();
+        int age = sc.nextInt();
 
         System.out.println("Hello " + name + "! You are " + age + " years old and you love " + food + ".");
     }
