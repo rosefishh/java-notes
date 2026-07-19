@@ -1,4 +1,4 @@
-package Day4;
+package day4;
 
 public class function {
     // 1. Void method (No return)
