@@ -56,5 +56,7 @@ public class oop2{
             }
         }
         System.out.println("The highest marks is " + highest + "scored by "+ topper);
+
+        sc.close();
     }
 }
