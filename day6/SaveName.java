@@ -1,3 +1,4 @@
+package day6;
 
 import java.io.*;
 import java.util.*;
