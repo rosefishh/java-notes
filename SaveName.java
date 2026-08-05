@@ -23,7 +23,7 @@ public class SaveName {
             System.out.println("✅ Name saved to name.txt!");
             
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("❌ Error: ");
         }
     }
 }
