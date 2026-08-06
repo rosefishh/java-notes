@@ -6,6 +6,10 @@ public class threading{
         t1.start();
         Thread t2 = new Thread(new thread2());
         t2.start();
+        thread3 t3 = new thread3();
+        t3.start();
+        thread4 t4 = new thread4();
+        t4.start();
     }
 }
 
