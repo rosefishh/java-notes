@@ -41,3 +41,34 @@ class thread2 implements Runnable{
     }
 }
 
+class thread3 extends Thread{
+    public void run(){
+        for(int i =0; i<=10; i=i+2){
+            System.out.println(i);
+
+            try{
+                thread3.sleep(1000);
+            }
+            catch(InterruptedException e){
+                System.out.println("THREADING INTERRUPTED!");
+            }
+        }
+    }
+}
+
+class thread4 extends Thread{
+    public void run(){
+        for(int i =1; i<=10; i=i+2){
+            System.out.println(i);
+
+            try{
+                thread4.sleep(1000);
+            }
+            catch(InterruptedException e){
+                System.out.println("THREADING INTERRUPTED!");
+            }
+        }
+    }
+}
+
+
