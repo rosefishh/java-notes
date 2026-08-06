@@ -10,6 +10,11 @@ public class threading{
         t3.start();
         thread4 t4 = new thread4();
         t4.start();
+
+        System.out.println(Thread.currentThread().getName());
+
+        Thread.currentThread().setName("MainWorker");
+        System.out.println(Thread.currentThread().getName());
     }
 }
 
