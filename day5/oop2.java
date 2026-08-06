@@ -1,12 +1,12 @@
 package day5;
 import java.util.*;
-class student{
+class student8{
     String name;
     int roll;
     double marks;
 
 
-    public student(String name, int roll, double marks){
+    public student8(String name, int roll, double marks){
         this.name=name;
         this.roll=roll;
         this.marks=marks;
@@ -20,7 +20,7 @@ class student{
 public class oop2{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        student[] s = new student[5];
+        student8[] s = new student8[5];
 
         System.out.println("ENTER THE DETAILS OF TH STUDENT:\n");
         for(int i=0; i<s.length; i++){
@@ -36,12 +36,12 @@ public class oop2{
             double marks = sc.nextDouble();
             sc.nextLine();
             
-            s[i] = new student(name,roll,marks);
+            s[i] = new student8(name,roll,marks);
 
         }
 
         System.out.println("---ALL STUDENTS RECORD---");
-        for(student ss : s){
+        for(student8 ss : s){
             ss.display();
         }
         sc.close();
